@@ -1,10 +1,10 @@
-import React from 'react'
-import './app.css'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Header from './Components/Header'
-import Footer from './Components/Footer'
-import Home from './Components/Home'
-import Login from './Components/Login/Login'
+import React from 'react';
+import './app.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Home from './Components/Home';
+import Login from './Components/Login/Login';
 
 const App = () => {
 	return (
@@ -18,7 +18,7 @@ const App = () => {
 				<Footer />
 			</BrowserRouter>
 		</div>
-	)
-}
+	);
+};
 
-export default App
+export default App;
