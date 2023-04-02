@@ -10,6 +10,7 @@
 .nav {
 	display: flex;
 	justify-content: space-between;
+	flex-direction: row;
 	align-items: center;
 	height: 4rem;
 }
@@ -20,6 +21,7 @@
 
 .login {
 	color: #333;
+	display: flex;
 }
 
 .login::after {
